@@ -1,0 +1,25 @@
+/* .navbar {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-right: 53%;
+} */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-decoration-color: white;
+}
+
+.navbar-brand {
+  margin-right: 15px; /* Add margin to the left to create space */
+}
+
+.navbar > div {
+  margin-right: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
